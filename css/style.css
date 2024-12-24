@@ -54,3 +54,27 @@ img{
 .icons{
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    form{
+        width: 70%;
+        padding: 10px;
+    }
+    form input{
+        width: 100%;
+        height: 35px;
+        margin-top: 15px;
+        font-size: 14px;
+        padding-left: 0px;
+    }
+    p{
+        font-size: 25px;
+    }
+    a{
+        font-size: 15px;
+    }
+    .logIn{
+        width: 150px;
+        height: 35px;
+    }
+}
